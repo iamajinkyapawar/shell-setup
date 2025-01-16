@@ -108,21 +108,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias wd1="cd /work5/ajinkyap/first/Lodestone"
-alias wd2="cd /work5/ajinkyap/second/Lodestone"
-alias robot="cd /work5/ajinkyap/robot/svc-robot"
-
-alias clus1="ssh -p26 root@9.122.123.178"
-alias node1="ssh -p26 root@9.122.123.224"
-alias node2="ssh -p26 root@9.122.123.35"
-
-alias go="make deepclean;make"
-alias mpd="make package_dev"
-
-alias gri2="git rebase -i HEAD~2"
-alias gpauto="git push origin HEAD:refs/for/master"
-alias gpmssl="git push origin HEAD:refs/for/main/multisslcertificates"
-
 # Enable completion features
 autoload -Uz compinit
 compinit
