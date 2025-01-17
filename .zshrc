@@ -70,7 +70,21 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aliases alias-finder colored-man-pages colorize common-aliases copyfile copypath extract themes tmux zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
+plugins=(git 
+	 aliases 
+	 alias-finder 
+  	 colored-man-pages 
+	 colorize 
+	 common-aliases 
+	 copyfile 
+	 copypath 
+	 extract 
+	 themes 
+	 tmux 
+	 zsh-autosuggestions 
+	 zsh-completions 
+	 zsh-syntax-highlighting 
+	 zsh-interactive-cd)
 
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
 zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
