@@ -107,6 +107,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export node1="1.1.1.1"
+
+alias node1="ssh root@$node1"
 
 # Enable completion features
 autoload -Uz compinit
